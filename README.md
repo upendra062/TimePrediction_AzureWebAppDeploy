@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 # Deployment WebApplication
 ```
-Aws Elastic Bean Stack
+Azure Web App
 ```
 
 # DATABASE
