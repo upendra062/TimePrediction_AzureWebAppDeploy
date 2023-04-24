@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="static/img/upendra.jpg" rel="icon">
+  <link href="static/img/upendra.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <!-- <link href="static/vendor/aos/aos.css" rel="stylesheet"> -->
+  <!-- <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/">Rocky Bhadauria<span>.</span></a></h1>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
+          <li><a class="nav-link scrollto " href="/data">Reload Data</a></li>
+          </ul>
+    </div>
+  </header>
+  <section>
+    <table>
+      {% for table in result %}
+      {{ table | safe }}
+      {% endfor %}
+    </table>
+  </section>
+</body>
+</html>
+
+
+
+                
+
+    <!-- <table class="table table-striped">
+      <thead>
+        <tr>
+
+          <th>ID</th>
+          <th>Delivery_person_ID</th>
+          <th>elivery_person_Age</th>
+          <th>Delivery_person_Ratings</th>
+
+          <th>Restaurant_latitude</th>
+          <th>Restaurant_longitude</th>
+          <th>Delivery_location_latitude</th>
+
+          <th>Delivery_location_latitude</th>
+          <th>Delivery_location_longitude</th>
+          <th>Time_Orderd</th>
+
+          <th>Time_Order_picked</th>
+          <th>Weather_conditions</th>
+          <th>Road_traffic_density</th>
+
+          <th>Vehicle_condition</th>
+          <th>Type_of_order</th>
+          <th>Type_of_vehicle</th>
+
+          <th>multiple_deliveries</th>
+          <th>Festival</th>
+          <th>City</th>
+          <th>Time_taken (min)</th>
+        </tr>
+      </thead>
+      <tbody> -->
+        <!-- <tr> -->
+          <!-- {% for data in data %}           -->
+          <!-- <th scope="row">1</th>
+          <td>{{ data['ID'] }}</td>
+          <td>{{ data[0:] }}</td>
+           <td>{{ data[0:] }}</td> 
+          <td>{{ data[1] }}</td>
+          <td>{{ data[2] }}</td>
+          <td>{{ data[3] }}</td>
+          <td>{{ data[0][6] }}</td>
+          <td>{{ data[0][7] }}</td>
+          <td>{{ data[0][8] }}</td>
+          <td>{{ data[0][9] }}</td>
+          <td>{{ data[0][10] }}</td>
+          <td>{{ data[0][11] }}</td>
+          <td>{{ data[0][12] }}</td>
+          <td>{{ data[0][13] }}</td>
+          <td>{{ data[0][14] }}</td>
+          <td>{{ data[0][15] }}</td>
+          <td>{{ data[0][16] }}</td>
+          <td>{{ data[0][17] }}</td>
+          <td>{{ data[0][18] }}</td>
+          <td>{{ data[0][19] }}</td>
+          <td>{{ data[0][20] }}</td> 
+          <td>{{ data['ID'] }}</td>
+          <td>{{ data['Delivery_person_ID'] }}</td>
+          <td>{{ data['Delivery_person_Age'] }}</td>
+          <td>{{ data['Delivery_person_Ratings'] }}</td>
+          <td>{{ data['Restaurant_latitude'] }}</td>
+
+          <td>{{ data['Restaurant_longitude'] }}</td>
+          <td>{{ data['Delivery_location_latitude'] }}</td>
+          <td>{{ data['Delivery_location_longitude'] }}</td>
+          <td>{{ data['Order_Date'] }}</td>
+          <td>{{ data['Time_Orderd'] }}</td>
+          <td>{{ data['Time_Order_picked'] }}</td>
+          <td>{{ data['Weather_conditions'] }}</td>
+          <td>{{ data['Road_traffic_density'] }}</td>
+          <td>{{ data['Vehicle_condition'] }}</td>
+          <td>{{ data['Type_of_order'] }}</td>
+          <td>{{ data['Type_of_vehicle'] }}</td>
+          <td>{{ data['multiple_deliveries'] }}</td>
+          <td>{{ data['Festival'] }}</td>
+          <td>{{ data['City'] }}</td>
+          <td>{{ data['Time_taken (min)'] }}</td> -->
+          <!-- {% endfor %} -->
+        <!-- </tr> -->
+
+      <!-- </tbody> -->
+    <!-- </table> -->

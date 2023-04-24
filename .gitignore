@@ -1,0 +1,7 @@
+venv
+TimePredictionProjectProject.egg-info
+build
+dist 
+notebook 
+.env
+logs
